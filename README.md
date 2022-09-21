@@ -32,7 +32,7 @@ public class Item : MonoBehaviour
     private void OnDisable()
     {
         // Unsubscribe to OnLoad and OnSave callbacks 
-        // when the behaviour is disanled so it won't 
+        // when the behaviour is disabled so it won't 
         // be saved if it is inactive.
         SaveObject saveObject = GetComponent<SaveObject>();
         saveObject.OnSave -= OnSave;
@@ -42,7 +42,7 @@ public class Item : MonoBehaviour
     // OnSave is called before all saved states are written to a file. 
     private void OnSave(ObjectState objectState)
     {
-        // Fill the data worth saving here.
+        // Add the data worth saving to the object state here.
         objectState.Add("cost", cost);
         objectState.Add("owner", SaveUtils.GetGuid(owner));
     }

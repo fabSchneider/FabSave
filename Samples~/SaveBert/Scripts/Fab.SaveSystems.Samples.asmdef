@@ -1,0 +1,16 @@
+{
+    "name": "Fab.Save.Samples",
+    "rootNamespace": "Fab.Save.Samples",
+    "references": [
+        "GUID:a2778f96dfe2c7947a0a5f015998ee1c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

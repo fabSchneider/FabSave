@@ -1,0 +1,22 @@
+{
+  "name": "com.fab.save",
+  "version": "0.1.0",
+  "displayName": "Fab Save",
+  "description": "A simple, GameObject based save system.",
+  "unity": "2021.3",
+  "unityRelease": "6f1",
+  "keywords": [],
+  "author": {
+    "name": "Fabian Schneider"
+  },
+  "samples": [
+    {
+      "displayName": "Save Bert",
+      "description": "An example showing how to save bert and his hat.",
+      "path": "Samples~/SaveBert"
+    }
+  ],
+  "dependencies": {
+    "com.unity.modules.jsonserialize": "1.0.0"
+  }
+}

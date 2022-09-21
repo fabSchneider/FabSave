@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="width: 300px; margin-left: 16px; margin-right: auto; margin-top: auto; margin-bottom: 16px; padding-left: 8px; padding-right: 8px; padding-top: 8px; padding-bottom: 8px; background-color: rgb(192, 192, 192); border-left-color: rgb(65, 62, 62); border-right-color: rgb(65, 62, 62); border-top-color: rgb(65, 62, 62); border-bottom-color: rgb(65, 62, 62); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px;">
+        <ui:TextField picking-mode="Ignore" name="filename-input" />
+        <ui:VisualElement style="flex-direction: row-reverse; padding-top: 8px;">
+            <ui:Button text="Save" display-tooltip-when-elided="true" name="save-btn" />
+            <ui:Button text="Load" display-tooltip-when-elided="true" name="load-btn" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

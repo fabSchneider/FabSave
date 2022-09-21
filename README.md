@@ -4,7 +4,7 @@ A simple, GameObject based save system for Unity.
 
 <img src="Documentation~/SaveBert.gif"/>
 
-Current features of version 0.1.0 include:
+Current features of version 0.1.1 include:
 - Save GameObject data to json.
 - Load json data and instantiate objects with the loaded data.
 - Save and load bools, ints, floats, strings and arrays with ease.

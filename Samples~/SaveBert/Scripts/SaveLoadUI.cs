@@ -16,6 +16,8 @@ namespace Fab.Save.Samples
 
         private void Start()
         {
+            saveSystem = FindObjectOfType<SaveSystem>();   
+
             // make sure the save directory exists.
             Directory.CreateDirectory(Path.Combine(Application.persistentDataPath, "Saved"));
 

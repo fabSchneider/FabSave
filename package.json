@@ -1,6 +1,6 @@
 {
   "name": "com.fab.save",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "displayName": "Fab Save",
   "description": "A simple, GameObject based save system.",
   "unity": "2021.3",

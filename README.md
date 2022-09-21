@@ -12,7 +12,7 @@ Current features of version 0.1.0 include:
 
 # Usage
 
-Here is an example of how to setup a Monobehaviour that saves and loads custom data.
+You can define how a Monobehaviours state should be saved and loaded by subscribing to the `OnLoad` and `OnSave` events of the `SaveObject` component.
 
 ````csharp
 public class Item : MonoBehaviour

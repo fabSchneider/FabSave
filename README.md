@@ -12,7 +12,7 @@ Current features of version 0.1.0 include:
 
 # Usage
 
-You can define how a Monobehaviours state should be saved and loaded by subscribing to the `OnLoad` and `OnSave` events of the `SaveObject` component.
+You can define how a MonoBehaviour's state is saved and loaded by subscribing to the `OnLoad` and `OnSave` events of a `SaveObject` component.
 
 ````csharp
 public class Item : MonoBehaviour
